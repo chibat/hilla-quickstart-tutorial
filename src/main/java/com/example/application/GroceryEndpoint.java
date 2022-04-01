@@ -14,6 +14,11 @@ public class GroceryEndpoint {
     private final List<GroceryItem> groceryList = new ArrayList<>();
 
     public @Nonnull List<@Nonnull GroceryItem> getGroceries() {
+        // try {
+        //     Thread.sleep(10*1000);
+        // } catch (InterruptedException e) {
+        //     // ignore
+        // }
         return groceryList;
     }
 
