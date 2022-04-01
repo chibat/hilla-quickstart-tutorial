@@ -1,0 +1,12 @@
+
+tasks:
+  - init: npm install && ./mvnw install -DskipTests=false
+
+
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
+    - runem.lit-plugin
+    - Pivotal.vscode-boot-dev-pack
+    - GabrielBB.vscode-lombok
